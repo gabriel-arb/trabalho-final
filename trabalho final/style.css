@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    transition: background-color 0.5s ease;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    transition: margin 0.5s ease;
+  }
+  
+  .conteudo {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  @media screen and (max-width: 600px) {
+    main {
+      flex-direction: column;
+    }
+  
+    .conteudo {
+      width: 100%;
+    }
+  }
+ 
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-theme nav {
+    background-color: #555;
+  }
+  
+  .dark-theme .conteudo {
+    background-color: #444;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-theme footer {
+    background-color: #555;
+  }
+  
+  
